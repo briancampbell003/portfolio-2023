@@ -1,11 +1,16 @@
 import React from "react";
+import Sidebar from "./components/Sidebar";
+import BodyContainer from "./components/BodyContainer";
 import './App.css';
 
-const App = () => <
-// SIDEBAR
-// NAVBAR
-// BODY WITH SWITCHER
-<div></div>
-/>;
+// SIDEBAR: photo, info, contact
+// NAVBAR: links for pages
+// BODY (pages) WITH SWITCHER -> coding, resume, other = music and writing
+const App = () => (
+<div>
+    < Sidebar />
+    < BodyContainer />
+</div>
+)
 
 export default App;
