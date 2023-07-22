@@ -1,0 +1,29 @@
+.sidebar-contain {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 250px;
+}
+
+.brian-name {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.brian-pic {
+    background-image:url("../assets/headshot.png");
+    background-position: center;
+    background-size: cover;
+
+    width: 200px;
+    height: 200px;
+    margin-left: 10%;
+    margin-right: 10%;
+
+    border: 3px solid red;
+}
+
+.about-me {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}

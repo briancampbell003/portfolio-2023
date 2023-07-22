@@ -3,6 +3,7 @@ import NavBar from './Navbar';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
+import './BodyContainer.css';
 
 export default function BodyContainer() {
     const [currentPage, setCurrentPage] = useState('Projects');
