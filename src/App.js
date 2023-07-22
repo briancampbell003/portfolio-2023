@@ -1,7 +1,11 @@
 import React from "react";
 import './App.css';
-import PortfolioContainer from "./components/PortfolioContainer";
 
-const App = () => <PortfolioContainer />;
+const App = () => <
+// SIDEBAR
+// NAVBAR
+// BODY WITH SWITCHER
+<div></div>
+/>;
 
 export default App;
