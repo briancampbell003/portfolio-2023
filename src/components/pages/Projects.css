@@ -13,10 +13,11 @@
     box-shadow: inset 0 0 40px 20px rgba(29, 37, 27, 0.787) ;
 }
 .proj-card:hover {
-    filter: blur(100);
+    box-shadow: inset 200px cyan;
 }
 .hide {
-    margin-top: -17px;
+    position: relative;
+    top: 0px;
     height: 315px;
     opacity: 0;
 }
@@ -24,7 +25,9 @@
     opacity: 1;
 }
 .proj-title {
-    display: block;
+    height: fit-content;
+    position: relative;
+    top: 0px;
     text-align: center;
     font-size: larger;
     color: var(--secondary);
