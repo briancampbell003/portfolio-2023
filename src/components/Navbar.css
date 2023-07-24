@@ -1,0 +1,13 @@
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+.nav a {
+    margin-right: 5vw;
+    text-decoration: none;
+}
+.nav a.active, .nav a:hover {
+    font-style: italic;
+}

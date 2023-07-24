@@ -29,15 +29,36 @@ export default function Contact() {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <label htmlFor=''>Name</label>
-      <input ref={nameRef} placeholder="your name" />
-      <label htmlFor=''>Email</label>
-      <input ref={emailRef} type="email" placeholder="your email" />
-      <label htmlFor=''>Message</label>
-      <input ref={messageRef} type="text" placeholder="say something" />
-      <input type="submit" value="Send" />
-    </form>
+    <div>
+      <h1>→ Contact</h1>
+      <div>
+        <p>
+          Find me on LINKEDIN
+        </p>
+        <p>
+          Find me on GITHUB
+        </p>
+        <p>
+          Find me on SOUNDCLOUD
+        </p>
+        <p>
+          Check out my writing on MY OTHER SITE
+        </p>
+        <p>
+          Or reach out to my email - brian.campbell003@gmail.com - using this form:
+        </p>
+      </div>
+
+      <form onSubmit={handleSubmit}>
+        <label htmlFor=''>Name</label>
+        <input ref={nameRef} placeholder="your name" />
+        <label htmlFor=''>Email</label>
+        <input ref={emailRef} type="email" placeholder="your email" />
+        <label htmlFor=''>Message</label>
+        <input ref={messageRef} type="text" placeholder="say something" />
+        <input type="submit" value="Send" />
+      </form>
+    </div>
   )
 }
 
