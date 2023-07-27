@@ -9,9 +9,9 @@ export default function ProjectCard({ projData }) {
         <div className='proj-card' key={proj.key} style={{
           backgroundImage: `url("${proj.imgPath}")`
         }}>
-          <p className='proj-title'>
+          <div className='proj-title'>
             {proj.title}
-          </p>
+          </div>
           <div className='hide' style={{
             backgroundImage: `linear-gradient(to right, rgba(255,0,0,0.1), rgba(255,240,240,.9))`
           }}>
