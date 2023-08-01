@@ -28,7 +28,7 @@ export default function Projects() {
       imgPath: '',
       key: '02',
       description: 'Promotional webpage for home-baked goods business',
-      tech: 'JavaScript, ReactJS'
+      tech: 'WordPress, Elementor'
     },
     {
       title: 'MHL Relocation Guide',

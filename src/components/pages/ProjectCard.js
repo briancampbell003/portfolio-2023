@@ -10,10 +10,10 @@ export default function ProjectCard({ projData }) {
           backgroundImage: `url("${proj.imgPath}")`
         }}>
           <div className='proj-title'>
-            {proj.title}
+            <div>{proj.title}</div>
           </div>
           <div className='hide' style={{
-            backgroundImage: `linear-gradient(to right, rgba(255,0,0,0.1), rgba(255,240,240,.9))`
+            backgroundImage: `linear-gradient(to right, rgba(255,0,0,0.1), rgba(255,255,255,.9))`
           }}>
             <a
               className='repo-link'
@@ -41,6 +41,9 @@ export default function ProjectCard({ projData }) {
                 heigth="50">
               </img>
             </a>
+            <div className='proj-tech'>
+              technologies: {proj.tech};
+            </div>
           </div>
         </div>
       ))}

@@ -7,10 +7,10 @@ import './App.css';
 // NAVBAR: links for pages
 // BODY (pages) WITH SWITCHER -> coding, resume, other = music and writing
 const App = () => (
-<div>
+<>
     < Sidebar />
     < BodyContainer />
-</div>
+</>
 )
 
 export default App;
