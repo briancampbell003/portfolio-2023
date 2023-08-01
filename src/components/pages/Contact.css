@@ -1,0 +1,51 @@
+.contact-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.email-me-div {
+    width: 80%;
+    align-self: center;
+}
+
+.email-me-text {
+    padding: 15px;
+}
+
+.email-me-form {
+    display: flex;
+    flex-flow: column nowrap;
+    align-self: center;
+    padding: 15px;
+    border: cyan solid 5px;
+}
+
+.email-me-form-name-and-email {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    padding-right: 15px;
+
+}
+.email-me-form-name, .email-me-form-email {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.email-me-form-textarea {
+    width: 100%;
+    height: 100px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+
+}
+
+.email-me-form-btn {
+    padding: 5px;
+}
