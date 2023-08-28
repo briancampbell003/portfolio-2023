@@ -2,8 +2,8 @@
     position: relative;
     top: 0px;
     left: 250px;
-    width: calc(100vw - 250px);
-    background-color: antiquewhite;
+    width: calc(100vw - 280px);
+    background-color: white;
 }
 
 h1 {

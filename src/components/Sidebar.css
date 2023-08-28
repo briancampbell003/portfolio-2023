@@ -6,7 +6,7 @@
 
 .brian-name {
     font-family: 'Source Code Pro', monospace;
-    color: antiquewhite;
+    color: var(--secondary);
     font-size: 30px;
     text-align: center;
 }
@@ -27,6 +27,6 @@
 
 .about-me {
     font-family: 'Source Code Pro', monospace;
-    color: antiquewhite;
+    color: var(--secondary);
     text-align: center;
 }

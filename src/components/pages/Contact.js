@@ -30,7 +30,6 @@ export default function Contact() {
 
   return (
     <div className='contact-container'>
-      <h1>→ Contact</h1>
       <div className='email-me-div'>
         <p className='email-me-text'>
           Reach out via email using this form:
@@ -40,11 +39,11 @@ export default function Contact() {
           <div className='email-me-form-name-and-email'>
             <div className='email-me-form-name'>
               <input ref={nameRef} placeholder="first last" />
-              <label htmlFor=''>(your name)</label>
+              <p>(your name)</p>
             </div>
             <div className='email-me-form-email'>
               <input ref={emailRef} type="email" placeholder="you@internet.com" />
-              <label htmlFor=''>(your email)</label>
+              <p>(your email)</p>
             </div>
           </div>
           <div>
