@@ -57,3 +57,20 @@
     padding: 10px;
 
 }
+
+.other-site-links {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.other-site-link {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.other-site-link-img {
+    border-radius: 5px;
+}
