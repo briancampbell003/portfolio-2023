@@ -1,6 +1,6 @@
 import React from 'react';
-import PDFObject from 'pdfobject';
-import ResumePDF from './assets/Campbell_Resume2022_dev.pdf';
+import { PDFObject } from 'react-pdfobject'
+import ResumePDF from './assets/Campbell_Resume2023cl_dev.pdf';
 import downloadLogo from './assets/download-logo.png';
 
 
@@ -17,6 +17,8 @@ export default function Resume() {
           heigth="40">
         </img>
       </a>
+
+      <PDFObject url={ ResumePDF } />
 
     </div>
   );
